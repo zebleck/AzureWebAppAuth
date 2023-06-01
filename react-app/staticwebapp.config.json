@@ -5,12 +5,8 @@
   },
   "routes": [
     {
-      "route": "/.auth/login/aad",
+      "route": "/landing",
       "statusCode": 404
-    },
-    {
-      "route": "/api/products/*",
-      "allowedRoles": ["authenticated"]
     }
   ]
 }
